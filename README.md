@@ -30,4 +30,38 @@ hej *__Tjock och kursiv text__* nånting
 ~~Genomstruken text~~  
 '~' kallas tilde, (behövs 2 per sida)
 
+## Listor
+
+### Oordnad lista
+
+- Stockholm
+- Umeå
+- Göteborg
+  
++ Kalmar
++ Uppsala
++ 
+* Malmö
+
+### Ordnad lista
+
+1. Marvel
+2. DC
+3. Något  
+   mer  
+   kan  
+   jag  
+   skriva  
+   här (med tre mellanslag)
+4. Bamse
+
+### Blandad lista
+1. Apoteket
+   - Alvedon
+   - *Ipren*
+2. Ica
+   - Mjölk
+   - __Ägg__
+3. Elgiganten
+   - Extra monitor 
 
