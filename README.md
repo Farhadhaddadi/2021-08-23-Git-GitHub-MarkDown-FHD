@@ -28,5 +28,6 @@ hej __*Tjock och kursiv text*__ nånting
 hej *__Tjock och kursiv text__* nånting  
 
 ~~Genomstruken text~~  
-'~' kallas tilde
+'~' kallas tilde, (behövs 2 per sida)
+
 
