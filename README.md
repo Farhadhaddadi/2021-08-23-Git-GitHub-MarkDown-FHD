@@ -88,3 +88,6 @@ Ladda ner filen [Här](1) då vi inte har den själva.
 
 ![röda tärningar](1200px-Two_red_dice_01.svg.png)
 
+## Länk till annan fil
+
+[Ny sida om mig](om_mig.md)
