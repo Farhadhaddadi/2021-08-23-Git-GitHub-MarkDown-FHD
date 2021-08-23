@@ -13,8 +13,6 @@
 
 ## Emfas
 
-**Tjock Text med stjärna**
-__Tjock text med underscore__
 
 *Kursiv text*
 _Kursiv text_
