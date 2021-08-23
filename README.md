@@ -56,6 +56,7 @@ hej *__Tjock och kursiv text__* nånting
 4. Bamse
 
 ### Blandad lista
+
 1. Apoteket
    - Alvedon
    - *Ipren*
@@ -64,4 +65,12 @@ hej *__Tjock och kursiv text__* nånting
    - __Ägg__
 3. Elgiganten
    - Extra monitor 
+
+## Länkar
+
+[]()
+[Länk till Google.com](http://www.google.com)  
+Ladda ner filen [Här](1) då vi inte har den själva.
+
+[1]: http://www.google.com
 
