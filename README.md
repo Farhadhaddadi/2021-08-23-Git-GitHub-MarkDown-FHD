@@ -78,7 +78,13 @@ Ladda ner filen [Här](1) då vi inte har den själva.
 
 ### Länk till bild på internet
 
-![Random bild](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2Fcode-yoga%2Frandom-numbers-are-not-random-701dd2fbc2b8&psig=AOvVaw04D9M-E7QgHDvE73Ubi0RY&ust=1629812292957000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCntoujx_ICFQAAAAAdAAAAABAD)
+![Random bild](https://miro.medium.com/max/1400/1*t_G1kZwKv0p2arQCgYG7IQ.gif)
 
 ### Länk till bild i vår (img) mapp
+
+![Tärningar](img/360fx360f.png)
+
+### Länk till bild i vår (img) mapp
+
+![röda tärningar](1200px-Two_red_dice_01.svg.png)
 
