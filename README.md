@@ -40,7 +40,7 @@ hej *__Tjock och kursiv text__* nånting
   
 + Kalmar
 + Uppsala
-+ 
+ 
 * Malmö
 
 ### Ordnad lista
