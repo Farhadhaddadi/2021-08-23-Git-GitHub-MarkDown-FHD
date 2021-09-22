@@ -21,7 +21,6 @@ body
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 h1
 {
     font-family: "Arial Rounded MT Bold";
@@ -56,7 +55,7 @@ ul{ list-style-type: none;
     text-align: left;
 
 }
-.horizontal{
+/*.horizontal{
     background-color: rgba(211,211,211,0.4);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     list-style-type: none;
@@ -69,6 +68,17 @@ ul{ list-style-type: none;
     bottom: 2%;
     width: 100%;
     border-left: 7px solid aqua;
+}*/
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(211,211,211,0.4);
+    color: aqua;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
 }
 
 #instagram{
@@ -96,6 +106,9 @@ a{
     font-family: "Yu Gothic Medium";
     text-shadow: coral;
 }
+
+
+
 
 
 
