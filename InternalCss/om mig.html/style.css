@@ -1,60 +1,68 @@
-body
-{
-    background-color: gainsboro;
-    background-image: url("background.jpg");
-}
+body{
+    background-image: url("Pics/background.jpg");
+margin: 0;
+    }
+
 .dropdown {
-    position: relative;
+    position: absolute;
     display: inline-block;
-}
+    }
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: rgba(211,211,211,0.4);
-    min-width: 160px;
+    width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
-}
+    }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-h1
-{
+
+
+.dropdown:hover .dropdown-content {display: contents;}
+
+h1{
+    text-align: center;
     font-family: "Arial Rounded MT Bold";
+    font-style: oblique;
     border-style: outset;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px aqua;
     border-radius: 5px;
-    border-width: 2px;
+    border-width: 1px;
     padding: 2px 7px 2px 7px;
-    margin: 01px 01px 01px 01px;
+    margin: 20px 250px 20px 250px;
+    position: center;
+    }
+h2{
+    text-align: center;
+    font-family: "Arial Rounded MT Bold";
+    border-style: none;
+    margin: 30px;
+    border-radius: 5px;
+    display: block;
+
+
 }
 
-#name
-{
+#name{
     background-color: rgba(211,211,211,0.4);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-left: 7px solid aqua;
-    text-align: left;
+    text-align: center;
+    position: center;
     padding: 5px 20px 3px 7px;
+    }
 
-}
-#search{
-    position: absolute;
-    top: 12%;
-    right: 4%;
-}
 
 
 ul{ list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 0;
     width: 200px;
     text-align: left;
+    }
 
-}
 /*.horizontal{
     background-color: rgba(211,211,211,0.4);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -72,41 +80,141 @@ ul{ list-style-type: none;
 .footer{
     position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
-    background-color: rgba(211,211,211,0.4);
-    color: aqua;
-    margin: 0;
-    padding: 1em;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    }
+
+.png{
+    height: 25px;
+    width: 25px;
+    padding: 5px 50px 0px 50px;
+    display: center;
     text-align: center;
 }
 
-#instagram{
+/*#instagram{
     align-content: center;
     position: fixed;
     bottom: 2%;
     left: 96%;
     width: 100%;
-}
+}*/
 li a{
     text-decoration: none;
     color: black;
     padding: 10px;
-
-
-    }
-li a:hover{
-    color: aqua;
     }
 
-p{
-    font-family: "Times New Roman"
-}
-a{
-    font-family: "Yu Gothic Medium";
-    text-shadow: coral;
+li a:hover{color: aqua;}
+
+p{font-family: "Times New Roman" }
+
+a{font-family: "Yu Gothic Medium";text-shadow: coral;}
+
+
+#course{
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 100%;
+    width: 800px;
+    position: center, fixed;
+
+    }
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: solid;
+    text-decoration: none;
+    }
+
+tr:nth-child(even) {background-color: rgb(192,192,192, 50%);}
+tr:hover {background-color: rgba(0,255,255,70%);}
+
+#first{background-color: aqua;}
+
+    .nothing a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .textbox{
+        width: 50%;
+        padding: 50px;
+        background-color: rgba(0,255,255,20%);
+        text-align: center;
+        border: 3px solid aqua;
+        border-radius: 5px;
+        border-left-width: thin ;
+        border-right-width: thin;
+        margin-left: 20%;
+        }
+
+    .unorderd{
+        margin-left: 20%;
+        margin-right: 24%;
+        text-align: center;
+        }
+
+    .box{
+        text-align: center;
+        background-color: rgba(0,255,255,30%);
+        margin-left: 30%;
+        margin-right: 24%;
+        border: 3px solid aqua;
+        border-radius: 10px;
+        width: 700px;
+
+
+        }
+
+#product{
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid aqua;
+    border-radius: 30px;
+    padding: 1px;
+    }
+
+#link{
+    border: 3px solid aqua;
+    margin-left: 36%;
+    }
+
+.frame{
+    display: block;
+    margin: auto;
+    width: 720px;
+    height: 480px;
+    border: 3px solid aqua;
+    }
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
 }
 
+
+@media screen {
+    min-width: 480px
+}
+
+
+@media screen{
+    min-width: 768px
+}
+
+
+ @media screen {
+     min-width: 992px
+ }
 
 
 
