@@ -13,7 +13,7 @@ margin: 0;
     position: absolute;
     background-color: rgba(211,211,211,0.4);
     width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
     }
@@ -24,10 +24,10 @@ margin: 0;
 
 h1{
     text-align: center;
-    font-family: "Arial Rounded MT Bold";
+    font-family: "Arial Rounded MT Bold", serif;
     font-style: oblique;
     border-style: outset;
-    box-shadow: 0px 8px 16px 0px aqua;
+    box-shadow: 0 8px 16px 0 aqua;
     border-radius: 5px;
     border-width: 1px;
     padding: 2px 7px 2px 7px;
@@ -36,7 +36,7 @@ h1{
     }
 h2{
     text-align: center;
-    font-family: "Arial Rounded MT Bold";
+    font-family: "Arial Rounded MT Bold", serif;
     border-style: none;
     margin: 30px;
     border-radius: 5px;
@@ -47,7 +47,7 @@ h2{
 
 #name{
     background-color: rgba(211,211,211,0.4);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     border-left: 7px solid aqua;
     text-align: center;
     position: center;
@@ -80,18 +80,20 @@ ul{ list-style-type: none;
 .footer{
     position: fixed;
     left: 0;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
+    height: 40px;
     background-color: darkcyan;
     color: white;
     text-align: center;
+    margin-bottom: 0;
     }
 
 .png{
     height: 25px;
     width: 25px;
-    padding: 5px 50px 0px 50px;
-    display: center;
+    padding: 5px 50px 0 50px;
+    display: inline-grid;
     text-align: center;
 }
 
@@ -110,17 +112,19 @@ li a{
 
 li a:hover{color: aqua;}
 
-p{font-family: "Times New Roman" }
+p{
+    font-family: "Times New Roman", serif }
 
-a{font-family: "Yu Gothic Medium";text-shadow: coral;}
+a{
+    font-family: "Yu Gothic Medium", serif;text-shadow: coral;}
 
 
 #course{
-    font-family: Arial;
+    font-family: Arial, serif;
     border-collapse: collapse;
-    width: 100%;
+    /*width: 100%;*/
     width: 800px;
-    position: center, fixed;
+    position: center;
 
     }
 
@@ -131,20 +135,20 @@ th, td {
     text-decoration: none;
     }
 
-tr:nth-child(even) {background-color: rgb(192,192,192, 50%);}
-tr:hover {background-color: rgba(0,255,255,70%);}
+tr:nth-child(even) {background-color: rgba(192,192,192,50);}
+tr:hover {background-color: rgba(0,255,255,70);}
 
-#first{background-color: aqua;}
+.first{background-color: aqua;}
 
     .nothing a{
         text-decoration: none;
         color: black;
     }
 
-    .textbox{
+    .text-box{
         width: 50%;
         padding: 50px;
-        background-color: rgba(0,255,255,20%);
+        background-color: rgba(0,255,255,20);
         text-align: center;
         border: 3px solid aqua;
         border-radius: 5px;
@@ -153,7 +157,7 @@ tr:hover {background-color: rgba(0,255,255,70%);}
         margin-left: 20%;
         }
 
-    .unorderd{
+    .unordered{
         margin-left: 20%;
         margin-right: 24%;
         text-align: center;
@@ -161,7 +165,7 @@ tr:hover {background-color: rgba(0,255,255,70%);}
 
     .box{
         text-align: center;
-        background-color: rgba(0,255,255,30%);
+        background-color: rgba(0,255,255,30);
         margin-left: 30%;
         margin-right: 24%;
         border: 3px solid aqua;
@@ -171,8 +175,8 @@ tr:hover {background-color: rgba(0,255,255,70%);}
 
         }
 
-#product{
-    border-radius: 8px;
+.product{
+    /*border-radius: 8px;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -202,19 +206,6 @@ and (-webkit-min-device-pixel-ratio: 3) {
 }
 
 
-@media screen {
-    min-width: 480px
-}
-
-
-@media screen{
-    min-width: 768px
-}
-
-
- @media screen {
-     min-width: 992px
- }
 
 
 
